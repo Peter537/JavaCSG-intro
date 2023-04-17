@@ -26,9 +26,7 @@ public class BrickX {
         var rotatecube2 = csg.rotate3DX(csg.degrees(50));
         Geometry3D cube2 = csg.box3D(5, 30, 6, true);
         var shapeBrick = csg.union3D(cube1, cube2);
-
         return shapeBrick;
-
     }
 
 
