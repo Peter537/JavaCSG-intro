@@ -9,6 +9,7 @@
         <module name="JavaMavenProjectTemplate" />
         <module name="JavaCSGTemplate" />
         <module name="AbstracticaProjectTemplate" />
+        <module name="JavaCSG-intro" />
       </profile>
     </annotationProcessing>
   </component>
