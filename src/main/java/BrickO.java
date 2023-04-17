@@ -1,8 +1,8 @@
 import org.abstractica.javacsg.JavaCSG;
 
-public class BrickY {
+public class BrickO {
 
-    public BrickY(JavaCSG csg) {
+    public BrickO(JavaCSG csg) {
         
     }
 }
