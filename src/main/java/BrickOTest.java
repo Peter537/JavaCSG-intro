@@ -6,6 +6,6 @@ public class BrickOTest {
     public static void main(String[] args) {
         JavaCSG csg = JavaCSGFactory.createDefault();
         BrickO circle = new BrickO(csg, 30, 6, 360);
-        csg.view(circle.generatedCircle());
+        csg.view(circle.generate());
     }
 }

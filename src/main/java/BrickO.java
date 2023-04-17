@@ -15,7 +15,7 @@ public class BrickO {
         this.angularResolution = angularResolution;
     }
 
-    public Geometry3D generatedCircle() {
+    public Geometry3D generate() {
         Geometry3D circle = csg.cylinder3D(diameter, height, angularResolution, true);
         Geometry3D centerHole = csg.cylinder3D(diameter / 1.5, height + 10, angularResolution, true);
         return csg.difference3D(circle, centerHole);
